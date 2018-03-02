@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Site Infos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Brand name</th>
+      <th>Welcome message</th>
+      <th>Page title</th>
+      <th>Call to action</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @site_infos.each do |site_info| %>
+      <tr>
+        <td><%= site_info.brand_name %></td>
+        <td><%= site_info.welcome_message %></td>
+        <td><%= site_info.page_title %></td>
+        <td><%= site_info.call_to_action %></td>
+        <td><%= link_to 'Show', site_info %></td>
+        <td><%= link_to 'Edit', edit_site_info_path(site_info) %></td>
+        <td><%= link_to 'Destroy', site_info, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Site Info', new_site_info_path %>

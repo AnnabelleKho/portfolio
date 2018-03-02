@@ -1,0 +1,220 @@
+header.masthead {
+  text-align: left;
+  color: white;
+  background-image: url(<%= asset_path 'redrose.jpg'%>);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+
+.masthead-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+
+.container-size {
+    width: 100%;
+    height: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    color: #BF0937;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+#mainNav {
+  background-color: transparent;
+}
+
+#mainNav .navbar-brand:hover {
+    color: white;
+}
+
+
+#mainNav .navbar-brand {
+    color: #BF0937;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #BF0937;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color:  #BF0937;
+}
+
+/* a.link-hover.active {
+
+
+} */
+
+
+@media (min-width: 576px){
+  .container .container-size .fullscreen {
+    height: 600px !important;
+  }
+
+}
+
+
+
+/* Adding image classes to Experience section */
+.section-gap {
+  padding: 120px 0;
+}
+
+.exprience-area .vector-thumb {
+  margin-top: 30px;
+  max-height: 350px;
+  text-align: center;
+}
+
+.exprience-area .vector-content {
+  margin-left: 30px;
+}
+
+.exprience-area .vector-content h4 {
+  margin-top: 10px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.exprience-thumb {
+  height: 100%;
+  min-height: 400px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-image: url(<%= asset_path 'dp.jpg' %>);
+}
+
+/* -row, container, col-lg-12, timeline, timeline image
+
+<div class="thumbnail-image">
+  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+</div>
+ */
+
+ @media (min-width: 992px) {
+ .thumbnail .thumbnail-image {
+     width: 150px;
+     height: 150px;
+     margin-left: -75px;
+ }
+}
+
+.container {
+}
+
+.thumbnail {
+
+    position: absolute;
+    top: 300px;
+    left:100px;
+    right:200;
+    bottom: 100px;
+    list-style: none;
+
+}
+
+
+/* .thumbnail > li .thumbnail-image {
+  position: absolute;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+} */
+
+
+
+
+.thumbnail > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+
+
+.thumbnail > li .thumbnail-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+}
+
+.thumbnail > li .thumbnail-image h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+
+.thumbnail-image {
+
+}
+
+
+
+/* changeing the theme color  */
+a {
+  color: #BF0937;
+}
+
+a:hover {
+  color: #BF0937;
+}
+
+.text-primary {
+  color: #BF0937 !important;
+}
+.btn-primary {
+  background-color: #BF0937;
+  border-color: #BF0937;
+}
+
+::-moz-selection {
+  background: #BF0937;
+  text-shadow: none;
+}
+
+::selection {
+  background: #BF0937;
+  text-shadow: none;
+}

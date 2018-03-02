@@ -1,0 +1,22 @@
+<!-- Home/Header -->
+<header class="masthead masthead-overlay fullscreen">
+  <div class="container container-size">
+
+
+    <div class="intro-text ">
+
+<div class="md-col-4 center">
+        <img class="rounded-circle img-fluid" src="<%= asset_path 'dp.jpg'%>" width="150px" height="150px"  alt="Picture of Annabelle"/>
+</div>
+      <div class="intro-lead-in">
+        <%= @site_info.welcome_message %>
+      </div>
+      <div class="intro-heading text-uppercase">
+        <%= @site_info.page_title %>
+      </div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">
+        <%= @site_info.call_to_action %>
+      </a>
+    </div>
+  </div>
+</header>
