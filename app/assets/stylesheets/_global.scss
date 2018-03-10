@@ -9,14 +9,14 @@ p {
 }
 
 a {
-  color: $primary;
+  color: #BF0937;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken(#BF0937, 10%);
   }
 }
 
 .text-primary {
-  color: $primary !important;
+  color: #BF0937 !important;
 }
 
 h1,
@@ -63,13 +63,13 @@ section {
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: #BF0937;
+  border-color: #BF0937;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 7.5%) !important;
-    border-color: darken($primary, 7.5%) !important;
+    background-color: darken(#BF0937, 7.5%) !important;
+    border-color: darken(#BF0937, 7.5%) !important;
     color: white;
   }
   &:active,
@@ -80,12 +80,12 @@ section {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: #BF0937;
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: #BF0937;
   text-shadow: none;
 }
 
